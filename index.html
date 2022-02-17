@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color API </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Color API</title>
+  </head>
+  <body>
     <div class="color__api">
-        <h1 class="color__title">Exercise: Color API</h1>
-        <p class="color__output"></p>
-        <button class="run__btn">Run Again</button>
+      <h1 class="color__title">Color API</h1>
+      <ul class="description">
+        <li>Generates a random number between 0 and 20.</li>
+        <li>
+          Fetches a colour, with that number as the id:
+          https://reqres.in/api/color/:id -> https://reqres.in/api/color/15
+        </li>
+        <li>If the request succeeds, adds background of the fetched color.</li>
+        <li>If it fails, adds a grey background to the HTML div.</li>
+      </ul>
+      <button class="run__btn">Run Again</button>
     </div>
-</body>
+  </body>
 </html>
