@@ -1,4 +1,4 @@
-hosted at:
+hosted at: https://andreibtc84.github.io/color-API-practice/
 
 # Exercise: Color API
 
